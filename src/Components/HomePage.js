@@ -8,8 +8,12 @@ const HomePage = (props) => {
         <div>
             <div>
                 <h2>Your Favorite Food, Delivered While Coding!</h2>
-                <Link to="/pizza" id="order-pizza">Order Here</Link>
+                <Link to="/pizza">
+                    <button id="order-pizza">Order Here</button>
+                </Link>
            </div>
+    
+
             <div>
                 <h3>Pizza Delivery in Every City!</h3>
             </div>
